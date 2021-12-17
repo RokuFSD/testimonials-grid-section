@@ -247,7 +247,7 @@ progress {
 }
 @media (min-width: 992px) {
    .container {
-    max-width: 720px;
+    max-width: 100%;
   }
 }
 @media (min-width: 1200px) {
@@ -282,24 +282,24 @@ progress {
   flex: 0 0 auto;
   width: 100%;
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
 
-  .col-xl-3 {
+  .col-lg-3 {
     flex: 0 0 auto;
     width: 25%;
   }
 
-  .col-xl-4 {
+  .col-lg-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
   }
 
-  .col-xl-8 {
+  .col-lg-8 {
     flex: 0 0 auto;
     width: 66.66666667%;
   }
 
-  .col-xl-9 {
+  .col-lg-9 {
     flex: 0 0 auto;
     width: 75%;
   }
