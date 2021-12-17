@@ -1,0 +1,17 @@
+$font-family-sans-serif: 'Barlow Semi Condensed', sans-serif;
+
+$primary: hsl(263, 55%, 52%);
+$secondary: hsl(217, 19%, 35%);
+$info: hsl(219, 29%, 14%);
+
+.card-body{
+  max-height: 5rem;
+}
+
+.d-flex img{
+  max-width: 3rem;
+  max-height: 3rem;
+}
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
